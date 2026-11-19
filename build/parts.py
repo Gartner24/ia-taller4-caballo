@@ -13,7 +13,6 @@
 - **Nombres.** Los nombres que fija el enunciado quedan en español (`saltos_legales`, `resolver`, `camino`, `visitadas`, `traza`, los estados `"éxito"`, `"fracaso"`, `"límite"`). El código auxiliar que escribimos nosotros va en inglés (`advance`, `retreat`, `replay`, `oracle`). Las explicaciones van en español.
 - **Caso asignado.** El docente no nos asignó un caso en clase. Para no escoger uno que nos favoreciera, lo sacamos de nuestras cédulas antes de ejecutar nada: tablero 6x6 (el 5x5 ya está en la tabla), inicio `(6 mod 6, 1 mod 6) = (0, 1)` con los últimos dígitos de cada cédula, y rotación `(6 + 1) mod 8 = 7`. Está en una sola celda (`CASO`, abajo); si el docente asigna otro, se cambia ahí y se vuelve a ejecutar.
 - **Verificación.** Todo resultado importante se compara con algo independiente: la traza que grabó el docente (Reto 2) y un segundo buscador escrito de otra forma, el oráculo (Reto 3).
-
 #%% code
 import platform
 import time
